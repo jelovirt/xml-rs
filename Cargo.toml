@@ -17,5 +17,9 @@ path = "src/lib.rs"
 name = "xml-analyze"
 path = "src/analyze.rs"
 
+[[bin]]
+name = "xml-lint"
+path = "src/lint.rs"
+
 [dependencies]
 bitflags = ">=0.5, <0.8"
